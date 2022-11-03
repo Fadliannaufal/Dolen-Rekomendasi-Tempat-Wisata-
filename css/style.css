@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 :root {
   --purple: #8e44ad;
@@ -14,7 +14,7 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -71,11 +71,11 @@ section {
 
 .btn {
   display: inline-block;
-  background: var(--black);
+  background: rgb(200, 36, 36);
   margin-top: 1rem;
   color: var(--white);
   font-size: 1.7rem;
-  padding: 1rem 12rem;
+  padding: 1rem 4rem;
   cursor: pointer;
 }
 
@@ -521,4 +521,27 @@ section {
 
 .booking .book-form .btn {
   margin-top: 2rem;
+}
+
+.kontak {
+  background: url(gambar/bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1500;
+  background-color: skyblue;
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: var(--box-shadow);
+  align-items: flex-end;
+  justify-content: right;
 }
