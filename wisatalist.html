@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata</title>
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <section class="header">
+      <a href="#" class="logo">Dolen</a>
+
+      <nav class="navbar">
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak Kami</a>
+        <a href="#">Masuk</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- header section ends -->
+
+    <div class="heading fa-align-center row" style="background: url(images/header-bg-2.png) no-repeat">
+      <h1>DESTINASI ANDA</h1>
+    </div>
+
+    <!-- packages section starts  -->
+
+    <div class="cari">
+      <form>
+        <input class="search" type="text" placeholder="Cari Lokasi Destinasi Anda" />
+        <input class="button" type="button" value="Cari" />
+      </form>
+    </div>
+    <section class="packages">
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/img-1.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>TAMAN NASIONAL BROMO</h3>
+            <p>Pesona Gunung Bromo yang indah tidak hanya terkenal di Indonesia, tetapi juga di banyak negara asing</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/img-2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h3>JATIM PARK I</h3>
+            <p>Tempat wisata ini bisa jadi tempat melepas penat dengan lebih dari 50 wahana seru untuk berbagai kalangan usia</p>
+            <button type="button" class="btn btn-primary" >More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/img-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>PULAU BAWEAN</h3>
+            <p>Bawean adalah pulau yang terletak di Laut Jawa, sekitar 120 kilometer sebelah utara Gresik.!</p>
+            <button type="button" class="btn btn-primary" >More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/img-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>BUKIT JAMUR</h3>
+            <p>Tempat wisata yang unik di Jawa Timur ini dulunya merupakan bekas tambang kapur yang sudah ditinggalkan</p>
+            <button type="button" class="btn btn-primary">More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/img-5.jfif" alt="" />
+          </div>
+          <div class="content">
+            <h3>PANTAI MERAH</h3>
+            <p>Pulau Merah adalah sebuah pantai dan objek wisata di Kecamatan Pesanggaran, Kabupaten Banyuwangi, Provinsi Jawa Timur.</p>
+            <button type="button" class="btn btn-primary" >More</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/img-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>KAWAH IJEN</h3>
+            <p>Kawah Ijen terletak di perbatasan antara Kabupaten Banyuwangi dan Kabupaten Bondowoso, Jawa Timur</p>
+            <button type="button" class="btn btn-primary" ">More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">DETAIL WISATA</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="box">
+              <div class="image">
+                <img src="images/bromoo.jpeg" alt="" />
+              </div>
+              <div class="image mx-lg-auto">
+                <img src="images/bromotiket.png" alt="" />
+              </div>
+              <div class="content">
+                <h3>TAMAN NASIONAL BROMO</h3>
+                <p>
+                  Taman Nasional Bromo Tengger Semeru adalah kawasan pegunungan di Jawa Timur, Indonesia, yang terletak di wilayah administratif Kabupaten Pasuruan, Kabupaten Malang, Kabupaten Lumajang dan Kabupaten Probolinggo. Taman yang
+                  bentangan barat-timurnya sekitar 20-30 kilometer dan utara-selatannya sekitar 40 km ini ditetapkan sejak tahun 1982 dengan luas wilayahnya sekitar 50.276,3 ha. Di kawasan ini terdapat kaldera lautan pasir yang luasnya
+                  ±6290 ha. Batas kaldera lautan pasir itu berupa dinding terjal, yang ketinggiannya antara 200-700 meter.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="https://forms.gle/pbV6LiEfG8SNtJeY6" role="button" class="btn btn-secondary">Booking Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- swiper js link  -->
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script> -->
+  </body>
+</html>
