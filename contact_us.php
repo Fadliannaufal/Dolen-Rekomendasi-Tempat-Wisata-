@@ -24,7 +24,7 @@
       </section>
       <!-- Contact Us -->
       <div class="heading fa-align-start row" style="background: url(images/contactUS.png) no-repeat">
-        <h1>Contact Us</h1>
+        <h1>Kontak Kami</h1>
       </div>
       <div class="container-fluid pt-lg-5 pb-lg-5" style="background: rgb(213, 209, 209)">
          <div class="container">
