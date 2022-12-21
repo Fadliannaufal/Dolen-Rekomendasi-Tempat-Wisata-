@@ -100,7 +100,7 @@
                                                             </div>
                                                          </div>
                                                          <div class="modal-footer">
-                                                            <a href="<?php echo $booking; ?>" role="button" class="btn btn-secondary">Booking Now</a>
+                                                            <a href="<?php echo $data['booking']; ?>" role="button" class="btn btn-secondary">Booking Now</a>
                                                          </div>
                                                       </div>
                                                    </div>
